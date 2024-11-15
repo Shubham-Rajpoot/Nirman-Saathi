@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className="bg-black">
         <div className="flex items-center justify-between mx-auto max-w-7xl h-16 px-5 ">
           <div>
-            <h1 className="text-2xl font-bold text-[#FFF8DC]">
+            <h1 className="text-2xl font-bold text-white">
               {" "}
-              Nirman <span className="text-[#3198AB]"> Saathi</span>
+              Nirman <span className="text-purple-700"> Saathi</span>
             </h1>
           </div>
           <div className="flex item-center gap-12">
@@ -29,7 +29,7 @@ const Navbar = () => {
                   <Button variant="outline">Login</Button>
                 </Link>
                 <Link to="/signup">
-                  <Button className="bg-[#0c6196] bg-purple-700">SignUp</Button>
+                  <Button className="bg-purple-700">SignUp</Button>
                 </Link>
               </div>
             ) : (
