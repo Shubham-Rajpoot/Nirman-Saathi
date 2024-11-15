@@ -9,7 +9,7 @@ const HeroSection = () => {
         <span className="px-4 py-2 mx-auto rounded-full bg-gray-100 text-[#2da2b6] font-medium ">
           No. 1 Job Hunt Website
         </span>
-        <h1 className="text-5xl font-medium">
+        <h1 className="text-5xl font-bold">
           Search, Apply & <br /> Get your{" "}
           <span className="text-purple-700">Dream Jobs</span>{" "}
         </h1>
