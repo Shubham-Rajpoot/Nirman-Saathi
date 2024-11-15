@@ -1,14 +1,14 @@
 import React from "react";
 import {
-    Table,
+  Table,
   TableBody,
   TableCaption,
   TableCell,
   TableHead,
   TableHeader,
   TableRow,
-} from "./components/ui/table";
-import { Badge } from "./components/ui/badge";
+} from "./ui/table";
+import { Badge } from "./ui/badge";
 
 const AppliedJobsTable = () => {
   return (
@@ -29,7 +29,7 @@ const AppliedJobsTable = () => {
               <TableCell>17-11-2024</TableCell>
               <TableCell>FrontEnd developer</TableCell>
               <TableCell>Google</TableCell>
-              <TableCell className='text-right'>
+              <TableCell className="text-right">
                 <Badge>Selected</Badge>
               </TableCell>
             </TableRow>
