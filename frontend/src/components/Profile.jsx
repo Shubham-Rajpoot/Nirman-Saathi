@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { Contact, Mail, Pen } from "lucide-react/dist/cjs/lucide-react";
 import { Badge } from "./ui/badge";
 import { Label } from "@radix-ui/react-label";
-import AppliedJobsTable from "@/AppliedJobsTable";
+import AppliedJobsTable from "./AppliedJobsTable";
 
 const skills = ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "ExpressJS"];
 const isResume = true;
