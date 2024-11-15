@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { Contact, Mail, Pen } from "lucide-react/dist/cjs/lucide-react";
 import { Badge } from "./ui/badge";
 import { Label } from "@radix-ui/react-label";
-import AppliedJobsTable from "@/AppliedJobsTable";
+import AppliedJobsTable from "@/components/AppliedJobsTable";
 
 const skills = ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "ExpressJS"];
 const isResume = true;
@@ -14,7 +14,7 @@ const Profile = () => {
   return (
     <div>
       <Navbar />
-      <div className="max-w-4xl mx-auto bg-white borderffborder-gray-200 rounded-2xl my-5 p-8 shadow-lg ">
+      <div className="max-w-4xl mx-auto bg-white border border-gray-200 rounded-2xl my-5 p-8 shadow-lg ">
         <div className="flex justify-between my-6 gap-2">
           <div className="flex items-center gap-6">
             <Avatar>

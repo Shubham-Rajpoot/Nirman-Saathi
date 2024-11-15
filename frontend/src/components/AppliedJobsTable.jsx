@@ -7,8 +7,8 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "./components/ui/table";
-import { Badge } from "./components/ui/badge";
+} from "./ui/table";
+import { Badge } from "./ui/badge";
 
 const AppliedJobsTable = () => {
   return (
