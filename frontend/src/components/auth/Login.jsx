@@ -15,6 +15,7 @@ import { Loader2 } from "lucide-react";
 
 
 
+
 const Login = () => {
     const [input, setInput] = useState({
       email:"",
@@ -88,7 +89,7 @@ const Login = () => {
                   onChange={changeEventHandler}
                   className="cursor-pointer"
                 />
-                <Label htmlFor="r1">Student</Label>
+                <Label htmlFor="r1">Worker</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <Input

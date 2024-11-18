@@ -14,8 +14,8 @@ const HeroSection = () => {
           <span className="text-purple-700">Dream Jobs</span>{" "}
         </h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
-          pariatur recusandae veniam! Porro, rerum illum.
+          Find trusted civil engineers, skilled workers, and all the materials
+           you need to complete your project—at competitive prices.
         </p>
         <div className="w-[40%] flex items-center gap-4 shadow-lg pl-3 mx-auto rounded-full border border-gray-200 ">
           <input
